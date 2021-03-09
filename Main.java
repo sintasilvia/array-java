@@ -14,10 +14,10 @@ class Main {
                 if(roomArray[i][j] == "*") {
                     availableRoom++;
                 } else {
-                    System.out.println("Tamu berada di Lantai " + (i + 1)  + " Kamar " + (j + 1));
+                    System.out.println(" pengunjung berada di Lantai " + (i + 1)  + " ruang " + (j + 1));
                 }
             }
         }
-        System.out.println("Jumlah kamar yang tersedia adalah "+ availableRoom +" kamar");
+        System.out.println("Jumlah ruang yang tersedia adalah "+ availableRoom +" ruang");
     }
 }
